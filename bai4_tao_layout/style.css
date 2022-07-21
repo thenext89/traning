@@ -1,0 +1,182 @@
+.web{
+    background-color: white;
+    border: 1px solid black;
+    width: 1000px;
+    height: auto;
+    margin:0 auto;
+    padding: 10px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color:#58CFB3;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+nav{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: #2B967A;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    flex:20%;
+    margin-right: 20px;
+}
+.search{
+    background-color: #2AC0E1;
+    height: 30%;
+    width: 100%;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.social{
+    background-color: #2B96CC;
+    height: 30%;
+    width: 100%;
+    margin-top: 10px;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.news{
+    background-color: #1986FF;
+    height: 40%;
+    width: 100%;
+    margin-top: 10px;
+    padding-left:10px;
+    padding-top: 10px;
+}
+ /* ============== css content center ==============*/
+.content-center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex:50%;
+    margin-right: 20px;
+}
+.banner{
+    width: 100%;
+    height: 20%;
+    background-color: #F15A25;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.copy{
+    width: 100%;
+    height: 15%;
+    background-color: #F37D57;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.products{
+    width: 100%;
+    height: 20%;
+    background-color: #F25560;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.blog{
+    width: 100%;
+    height: 30%;
+    background-color: #F36A5A;
+    padding-left:10px;
+    padding-top: 10px;
+}
+/* =================== css content right ================*/
+.content-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex:20%;
+}
+.top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex:60%;
+}
+.categories{
+    width: 100%;
+    display: flex;
+    flex:45%;
+    flex-direction: column;
+    margin-right: 20px;
+    text-align: center;
+}
+.categories-item1{
+    background-color: #FDD900;
+    width: 100%;
+    height: 20%;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.categories-item2{
+    background-color: #FDE500;
+    width: 100%;
+    height: 20%;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.categories-item3{
+    background-color: #F0FD00;
+    width: 100%;
+    height: 20%;
+    padding-left:10px;
+    padding-top: 10px;
+}   
+.categories-item4{
+    background-color: #F8E600;
+    width: 100%;
+    height: 20%;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.categories-item5{
+    background-color: #F5F056;
+    width: 100%;
+    height: 20%;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.side-nav{
+    flex: 55%;
+    width: 100%;
+    background-color: #FFDF01;
+    text-align: center;
+    padding-left:10px;
+    padding-top: 10px;
+}
+.other-offer{
+    display: flex;
+    flex:40%;
+    background-color: #FBC500;
+    width: 100%;
+    margin-top:10px;
+    padding-top: 10px;
+}
+span{
+    margin-left: 10px;
+}
+/* =================== css footer ===============*/
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #2B8681;
+    margin-top: 10px;
+    text-align: center;
+}
